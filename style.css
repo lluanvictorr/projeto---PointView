@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+
+:root {
+    --cor0: #26528C;
+    --cor1: #3C92A6;
+    --cor2: #F2D399;
+    --cor3: #D9AB73;
+    --cor4: #A67665;
+
+    --fonte-padrao: 'Cal Sans', Arial, Verdana, Helvetica sans-serif;
+
+}
+
+body{
+    background-color:#F2D399;
+    font-size: 1.2em;
+    
+}
+header{
+    background-color: #D9AB73;
+    font-size: 1.5em;
+}
+header  h1{
+    font-family: 'Cal Sans';
+    font-weight: 900;
+    text-align: center;
+    color:#26528C;
+    padding: 20px 0px 0px 0px;
+    margin: 0px;
+}
+header  p{
+    font-family: 'Cal Sans';
+    text-align: center;
+    color: #26528C;
+    padding: 0px 0px 20px 0px;
+}
+nav{
+    text-align: center;
+    margin:0px;
+    padding: 0px;
+}
+nav a.menu{
+    font-family: 'Cal Sans';
+    text-decoration: none;
+    color: #A67665;
+    margin: 30px;
+    padding: 0px;
+    
+}
+a.menu:hover{
+    color: #F2D399;
+    background-color: #A67665;
+}
+main{
+    background-color: #D9AB73;
+}
+main h1{
+    font-family: 'Cal Sans';
+    font-weight: 500;
+    color:#26528C;
+    background-color: #D9AB73;
+    text-align: center;
+    margin: 30px;
+    padding: 20px 10px 0px 0px;
+}
+
+h2{
+    font-family: 'Cal Sans';
+    color: #26528C;
+    background-color: #A67665;
+    padding: 5px;
+    
+}
+h3{
+    font-family: 'Cal Sans';
+    color: #26528C;
+    background-color: #A67665;
+    padding: 5px;
+}
+p{
+    font-family: 'Cal Sans';
+    font-weight: lighter;
+    color: #3C92A6;
+    padding: 15px;
+}
+ ul  li{
+    font-family: 'Cal Sans';
+    font-weight: lighter;
+    color: #3C92A6;
+}
+ul li {
+    color: #3C92A6;
+}
+
+li a{
+    text-decoration: none;
+    color: #F2D399;
+    background-color: #26528C;
+
+}
+
+img{
+    margin: 0px 600px;
+}
+footer p{
+    background-color:#A67665;
+    color:#F2D399 ;
+    
+}
+footer a{
+    text-decoration: none;
+}
