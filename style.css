@@ -10,9 +10,11 @@
     --cor4: #A67665;
 
     --fonte-padrao: 'Cal Sans', Arial, Verdana, Helvetica sans-serif;
-
 }
-
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body{
     background-color:#F2D399;
     font-size: 1.2em;
@@ -21,77 +23,161 @@ body{
 header{
     background-color: #D9AB73;
     font-size: 1.5em;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.205);
 }
 header  h1{
     font-family: 'Cal Sans';
     font-weight: 900;
     text-align: center;
-    color:#26528C;
-    padding: 20px 0px 0px 0px;
-    margin: 0px;
+    color:#26528C;   
+    
 }
-header  p{
+header  p {
     font-family: 'Cal Sans';
     text-align: center;
     color: #26528C;
-    padding: 0px 0px 20px 0px;
+    padding: 0px 0px 10px 0px;
+   
 }
 nav{
+    font-size: 16px;
     text-align: center;
-    margin:0px;
-    padding: 0px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.199);
+    background-color: #D9AB73;
+    margin: 20px 0px;
+    padding: 10px 0px    
 }
 nav a.menu{
     font-family: 'Cal Sans';
     text-decoration: none;
     color: #A67665;
-    margin: 30px;
-    padding: 0px;
+    transition-duration: 0.7s;
+    padding: 3px;
+    margin: 0px 10px;
+    border-radius: 10px;
+    
     
 }
 a.menu:hover{
     color: #F2D399;
     background-color: #A67665;
 }
-main{
+main {
     background-color: #D9AB73;
-}
-main h1{
-    font-family: 'Cal Sans';
-    font-weight: 500;
-    color:#26528C;
-    background-color: #D9AB73;
-    text-align: center;
-    margin: 30px;
-    padding: 20px 10px 0px 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.205);
+    min-width: 300px ;
+    max-width:1000px ;
+    margin: auto;
+   
 }
 
+main  h1{
+    font-family: 'Cal Sans';
+    font-weight: 500;
+    font-size: 2.3em;
+    color:#26528C;
+    background-color: #D9AB73;
+    text-align: center; 
+    padding: 10px 0px;
+}
+div.video1{
+    background-color: #A67665;
+    position: relative;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 56%;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.199);
+}
+div.video2{
+    background-color: #A67665;
+    position: relative;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 55%;
+    border-radius: 6px;
+    box-shadow:  2px 2px 2px 1px rgba(0, 0, 0, 0.199);
+}
+div.video1 > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    box-shadow:  2px 2px 2px 1px rgba(0, 0, 0, 0.199);
+}
+div.video2 > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    box-shadow:  2px 2px 2px 1px rgba(0, 0, 0, 0.199);
+}
 h2{
     font-family: 'Cal Sans';
     color: #26528C;
     background-color: #A67665;
-    padding: 5px;
+    text-indent: 10px;
+    margin: px 0px 10px 0px;
+    border-radius: 2px;
+    background-image:linear-gradient(to right, #a67665f6,#d9ab73a2, #d9ab73d5, #d9ab73e3, #d9ab73f8, #d9ab73fa, #D9AB73) 
+   
     
 }
 h3{
     font-family: 'Cal Sans';
     color: #26528C;
     background-color: #A67665;
-    padding: 5px;
+    text-indent: 10px;
+    line-height: 1.5em;
+    margin: 15px 0px 10px 0px;
+    background-image:linear-gradient(to right, #a67665f6,#d9ab73a2, #d9ab73d5, #d9ab73e3, #d9ab73f8, #d9ab73fa, #d9ab73f8) 
+    
 }
+
 p{
     font-family: 'Cal Sans';
     font-weight: lighter;
+    font-size: 1.2em;
     color: #3C92A6;
-    padding: 15px;
+    text-indent: 10px;
+    text-align: justify;
+    line-height: 1.3em;
+    margin: 20px 10px;
+    
+    
+     
+   
 }
- ul  li{
+ main p > a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #26528C;
+    background-color: #A67665;
+    border-radius: 8px;
+    padding: 2px;
+    
+    
+
+}
+p > a:hover{
+    background-color:#3C92A6;
+    text-decoration: none
+}
+ul{
+    margin: 0px 30px;
+}
+ul  li{
     font-family: 'Cal Sans';
     font-weight: lighter;
+    font-size: 1.2em;
     color: #3C92A6;
-}
-ul li {
-    color: #3C92A6;
+
 }
 
 li a{
@@ -100,15 +186,36 @@ li a{
     background-color: #26528C;
 
 }
-
-img{
-    margin: 0px 600px;
+li a:hover{
+    background-color: #3C92A6;  
+    text-decoration: underline;
+}
+main img{
+    width: 90%;
+    margin-left: 50px;
+    
+    
+    
 }
 footer p{
     background-color:#A67665;
     color:#F2D399 ;
+    text-align: center;
+    margin-left: 2px;
+    margin-right: -1px;
+    margin-bottom: -3px;
+    padding-top: 6px;
+    border-radius: 8px;
+    
     
 }
-footer a{
+footer a.rodape{
     text-decoration: none;
+    background-color: #F2D399;
+    padding: 0px 3px 0px 3px;
+    
+    
+}
+footer a.rodape:hover{
+     background-color:#3C92A6;
 }
