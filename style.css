@@ -16,11 +16,13 @@
     padding: 0px;
 }
 body{
+    height: 100vh;
     background-color:#F2D399;
-    font-size: 1.2em;
     background-image: url(imagens/wallpaper002.jpg);
-    background-size: 700px;
-    background-position: center center;
+    background-position: left center;
+    background-repeat:repeat;
+    font-size: 1.2em;
+   
     
 }
 header{
